@@ -10,7 +10,7 @@ public class EmptyListMain {
         ArrayList<Integer> list1 = new ArrayList<>();
 
         List<Object> list3 = Collections.emptyList();
-        List<Object> list4 = List.of();
+        List<Object> list4  = List.of();
         System.out.println("list3 = " + list3.getClass());
         System.out.println("list4 = " + list4.getClass());
     }
